@@ -231,9 +231,10 @@ public class GetHSWCNewPrice {
                         }
                         break;
                     default:
-                        System.out.println("default");
+                        System.out.println(productName+"名称不一致");
                 }
             } catch (Exception e) {
+                System.out.println("已退市");
             }
 
         }
